@@ -10,7 +10,7 @@ RUN pip install ipython
 
 WORKDIR /app
 
-RUN git https://github.com/FerwalrodEGC/EGC-M4-PracticaExamen.git .
+RUN git clone https://github.com/FerwalrodEGC/EGC-M4-PracticaExamen.git .
 RUN pip install -r requirements.txt
 
 WORKDIR /app/decide
